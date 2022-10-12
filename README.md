@@ -13,13 +13,13 @@ Note:
 
 Comments:
 - in the background the script creates 4 rings (2 small and 2 bigger rings) for calculation of dose metrics (will be automatically deleted at the end). Reason: example -> when the 50%-isodose is not the same in the two bigger rings, I assume dose bridging and will not calculate metrics to prevent misreporting
-- 
+
 ![Test Image 1](https://github.com/Kiragroh/ESAPI_SRS-MultiMets-localMetrics/blob/main/SRS-PlanQuality-Rings.PNG)
 - the script calculates metrics for all ptvs that have a bigger median dose as prescription (prescription will be separately overwritten if a referencepointDose is set)
 - the script result will be a simple MessageBox:
-- 
+
 ![Test Image 2](https://github.com/Kiragroh/ESAPI_SRS-MultiMets-localMetrics/blob/main/SRS-PlanQuality-MessageBox-Skript.PNG)
 - to make the script more usful you can develop a GUI script that writes the provided results or even more to a database. Example screenshot of the GUI-version:
-- 
+ 
 ![Test Image 3](https://github.com/Kiragroh/ESAPI_SRS-MultiMets-localMetrics/blob/main/SRS-PlanQuality-GUI-Skript.PNG)
 
