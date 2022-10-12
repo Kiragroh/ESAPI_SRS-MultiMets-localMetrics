@@ -19,7 +19,7 @@ Comments:
 - the script result will be a simple MessageBox:
 
 ![Test Image 2](https://github.com/Kiragroh/ESAPI_SRS-MultiMets-localMetrics/blob/main/SRS-PlanQuality-MessageBox-Skript.PNG)
-- to make the script more usful you can develop a GUI script that writes the provided results or even more to a database. Example screenshot of the GUI-version:
+- to make the script more usfule you can develop a GUI script that writes the provided results or even more to a database. Example screenshot of the GUI-version:
  
 ![Test Image 3](https://github.com/Kiragroh/ESAPI_SRS-MultiMets-localMetrics/blob/main/SRS-PlanQuality-GUI-Skript.PNG)
 
